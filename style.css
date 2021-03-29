@@ -1,0 +1,102 @@
+body{
+	font-size: 16px;
+	margin: 0;
+}
+#menu{
+	background-color: #259055;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+#menu a{
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+#header{
+	background-image: url(img/background.jpg);
+	padding: 200px 0;
+	text-align: center;
+	background-size: cover;
+	position: relative;
+}
+h1{
+	font-size: 50px;
+	font-style: italic;
+	padding-right: 1050px;
+}
+#header p{
+	position:absolute;
+	bottom:10px;
+	right: 50px;
+}
+#list{
+	background-color: #7AB27D;
+	padding: 50px 0;
+}
+h2{
+	text-align: center;
+	color: #B51F1F;
+	text-decoration: underline;
+	margin: 0;
+}
+li{
+	padding: 10px;
+}
+#galery{
+	background-color: #FFFFFF;
+	padding: 50px 0;
+}
+#photos{
+	text-align: center;
+}
+img{
+	margin: 20px;
+	width: 40%
+}
+.cats{
+	font-weight: bold;
+}
+.facts{
+	font-style: italic;
+}
+#img1{
+	border: 3px solid red
+}
+#img2{
+	border: 3px solid blue
+}
+#img3{
+	border: 3px solid green
+}
+#img4{
+	border: 3px solid yellow
+}
+#right{
+	padding: 50px 0;
+	background-color: #7AB27D
+}
+form{
+	width: 500px;
+	margin: 20px auto;
+	border: 3px double green;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+input, select, textarea{
+	width: 300px;
+	padding: 15px;
+	margin-top: 10px;
+	outline: none;
+	border-radius: 8px;
+}
+input[type=submit]{
+	background-color: #B51F1F
+}
+label{
+	display: block;
+}
